@@ -22,21 +22,30 @@ body {
   background: #eee;
 }
 .card-top .div-bg {
-  background: rgb(161, 153, 142);
+  background: #2b4c59;
   background: linear-gradient(
     90deg,
-    rgba(161, 153, 142, 1) 0%,
-    rgba(161, 153, 142, 0.403) 100%
+    rgba(43, 76, 89, 1) 0%,
+    rgba(43, 76, 89, 0.9) 100%
   );
   height: 335px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 0% 80%);
 }
-.card-top img {
+.card-top .logo {
+  position: absolute;
+  top: 20px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px;
+}
+.card-top .profile {
   width: 150px;
   border-radius: 50%;
   position: absolute;
   right: 0;
   bottom: 160px;
+  background: #ffce28;
+  padding: 10px;
 }
 .card-top p {
   padding: 0 10px;
@@ -44,14 +53,16 @@ body {
 .card-top-head {
   padding: 80px 10px;
 }
-.card-top-head h1 {
-  color: #746c6a;
+.card-top-head h1,
+h6,
+span {
+  color: #fff;
 }
 .card-bottom {
   padding: 0 20px;
 }
 .contact-icon {
-  background: #a1998e;
+  background: rgb(43, 76, 89);
   display: flex;
   align-items: center;
   width: 30px;
@@ -62,7 +73,7 @@ body {
 .contact-icon svg {
   color: #fff;
 }
-.card-bottom a{
-    text-decoration: none;
-    color: black;
+.card-bottom a {
+  text-decoration: none;
+  color: black;
 }
