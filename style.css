@@ -13,7 +13,7 @@ body {
 }
 .main-card {
   height: 100vh;
-  border: 1px solid lightgray;
+  border: 1px solid #eee;
   position: relative;
 }
 .card-top {
@@ -29,7 +29,7 @@ body {
     rgba(43, 76, 89, 0.9) 100%
   );
   height: 310px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 0% 80%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 0% 80%);
 }
 .card-top .logo {
   position: absolute;
@@ -44,7 +44,7 @@ body {
   border-radius: 50%;
   position: absolute;
   right: 0;
-  bottom: 155px;
+  bottom: 125px;
   background: #ffce28;
   padding: 10px;
 }
