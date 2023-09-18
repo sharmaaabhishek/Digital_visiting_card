@@ -50,6 +50,7 @@ body {
 }
 .card-top p {
   padding: 0 10px;
+  font-size: 14px;
 }
 .card-top-head {
   padding: 80px 10px;
@@ -61,6 +62,8 @@ span {
 }
 .card-bottom {
   padding: 0 20px;
+  font-size: 14px;
+  font-weight: 300;
 }
 .contact-icon {
   background: rgb(43, 76, 89);
